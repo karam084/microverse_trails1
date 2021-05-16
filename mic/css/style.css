@@ -1,0 +1,186 @@
+header {
+    position: fixed;
+    background-color:#6F1BC3;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+    width: 100%;
+     height:140px;
+   
+  }
+  
+  header::after {
+    clear: both;
+    content: '';
+    display: table;
+    width: 100%;
+  }
+  
+  #header-img {
+    width: 90px;
+    height: 40px;
+    float: left;
+    padding-top: 1.7em;
+    max-width: 100%;
+    border:0;
+  }
+  
+  nav ul{
+    float: right;
+    margin-right: 2em;
+  }
+  nav li{
+    display: inline;
+    padding: 1em;
+    display: inline-block;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:visited {
+    color: inherit;
+  }
+  
+  #about-us {
+    background-color: #444;
+    color: white;
+    Padding: 20em;
+    background-image: url(https://www.csschopper.com/blog/wp-content/uploads/2018/09/web-design-development.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  main {
+    font-family: 'Exo 2', sans-serif;
+  }
+  
+   #videos {
+    text-align: center;
+    padding: 3.5em;
+    }
+  
+  #video {
+    margin: 0 auto;
+     width: 100%;
+    height: 30em;
+  }
+  
+  img {
+    width: 300px;
+    height: 20em;
+    margin: 10px;
+    border: 1px solid green;
+  }
+  
+  #design {
+     background-color:#f2efea;
+     padding: 2em;
+  }
+  #web-design {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  input{
+    height: 2em;
+    border: none;
+    transition: 0.1s;
+  }
+  input:hover {
+      border-bottom: 2px solid black;
+  }
+  #form {
+    text-align: center;
+    padding: 2em;
+  }
+  
+  #submit {
+    border-radius: 5px;
+    padding: 0.5em;
+    font-family: 'Exo 2', sans-serif;
+    background-color:#17FBFB;
+    border: none;
+  }
+  
+  html, body {
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+  }
+  
+  footer {
+    background-color: #171faa;
+    padding: 2em;
+    color: white;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  footer li {
+    display: inline;
+    padding: 2em;
+  }
+  
+  @media (max-width: 650px){
+  .logo> img{
+    margin: 0 auto;
+
+  }}
+
+  
+     .item{
+    width:150px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 150px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+    
+  }
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  iframe{
+    width :560px; 
+    height:315px;
+     autoplay:1; 
+    allow:auto;
+    frameborder:0;
+  }
